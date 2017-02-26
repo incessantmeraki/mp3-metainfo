@@ -63,7 +63,6 @@ function pivots (result) {
 
 function charDetect(str) {
   var c = str.charAt(0) 
-  //console.log(c)
   if (c >= 'A' && c <= 'Z') return 1;
   if (c >= 'a' && c <= 'z') return -1;
   if ((c >= '0' && c <= '9') || c ==' ') return 0;
