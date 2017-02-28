@@ -5,6 +5,7 @@ takes location of mp3 file as argument and returns an object meta information.
 
 ### Example
 ```js
+  //example.js
   var mp3Metainfo = require('./index.js')
 
   var fullPath = __dirname + '/'+process.argv[2]
@@ -17,7 +18,7 @@ takes location of mp3 file as argument and returns an object meta information.
 copy any music(music.mp3) in the current directory and run
 
 ```sh
-  $ node index.js music.mp3
+  $ node example.js music.mp3
   
     { song: 'Always In My Head',
       artist: 'Coldplay',
