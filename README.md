@@ -1,5 +1,6 @@
 # mp3-metainfo
 takes location of mp3 file as argument and returns an object meta information. 
+(experiment: don't use in production)
 
 ## Usage
 
